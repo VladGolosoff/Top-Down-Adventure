@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bcc2e46676d3d45318a5bc87a7afbbf5
+guid: fbdddb19dc44b4aed94bbbb981399539
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,112 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime_Sheet_0
+      name: ChikBoy_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d117f04e6d07b468a9416a00b725b7a9
+      internalID: 1437782750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChikBoy_idle_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76a4e0aa06d64418b45113bfa8ae067
+      internalID: -344798447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChikBoy_idle_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00c9181224a2f4d859b6943b26829ad1
+      internalID: 671054945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChikBoy_idle_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244fa24cbc713417886b4fdcba3038cf
+      internalID: -1425250950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChikBoy_idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.05}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb272097fc8c4e8fa96a53c60b54539
+      internalID: 1737165469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ChikBoy_idle_5
       rect:
         serializedVersion: 2
         x: 0
@@ -131,56 +236,14 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 9
-      pivot: {x: 0.52100843, y: 0.33018205}
+      pivot: {x: 0.5, y: 0.05}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46202903f0737422faac725a3144c492
-      internalID: -1457068381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5175072, y: 0.33368346}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 823a08d2416404f518de8dce0e48cc62
-      internalID: -1361222039
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Slime_Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 9
-      pivot: {x: 0.50875354, y: 0.33193275}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 770aa2dc58d8c49f09d2715ef21349f2
-      internalID: -282249023
+      spriteID: 4607bcb46417a417c99a3ac7f810269f
+      internalID: 737940401
       vertices: []
       indices: 
       edges: []
@@ -196,9 +259,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime_Sheet_0: -1457068381
-      Slime_Sheet_1: -1361222039
-      Slime_Sheet_2: -282249023
+      ChikBoy_idle_0: 1437782750
+      ChikBoy_idle_1: -344798447
+      ChikBoy_idle_2: 671054945
+      ChikBoy_idle_3: -1425250950
+      ChikBoy_idle_4: 1737165469
+      ChikBoy_idle_5: 737940401
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
