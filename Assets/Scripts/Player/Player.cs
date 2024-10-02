@@ -24,6 +24,16 @@ public class Player : MonoBehaviour
         
     }
 
+    private void Start()
+    {
+        GameInput.Instance.OnPlayerAttack += Player_OnPlayerAttack;
+    }
+
+    private void Player_OnPlayerAttack(object sender, EventArgs e)
+    {
+        ActiveWeapon.Instance.GetActiveWeapon().Attack();
+    }
+
     private void Update()
     {
         inputVector = GameInput.Instance.GetMovementVector();
