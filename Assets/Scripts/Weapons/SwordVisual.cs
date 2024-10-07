@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class SworVisual : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private Animator animator;
+    [SerializeField] private Sword sword;
+    private const string ATTACK = "Attack";
+
+
+
+    private void Awake()
     {
-        
+        animator = GetComponent<Animator>();
+
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        sword.OnSwordSwing += Sword_OnSwordSwing;
+    }
+
+    private void Sword_OnSwordSwing(object sender, System.EventArgs e)
+    {
+        animator.SetTrigger(ATTACK);
     }
 }
