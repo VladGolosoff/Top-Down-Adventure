@@ -123,12 +123,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hero_Idle_0
+      name: Slash Effect Flipped_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 96
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -137,19 +137,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94e8db664524f44a2babca625ed247cd
-      internalID: -506548426
+      spriteID: ba7d58df8fcea430297e6731e456d20d
+      internalID: -1598383765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hero_Idle_1
+      name: Slash Effect Flipped_1
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 0
-        width: 96
+        width: 64
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -158,8 +158,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58992b228168942dab055d7ffe49af5c
-      internalID: 1044538332
+      spriteID: 9a7319725e7514095a844424888cbb4f
+      internalID: 580723097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash Effect Flipped_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6dbcab8f9ec405683180dec665dee0
+      internalID: -1516052851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash Effect Flipped_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 647c6c5e492e0432083310f11b853834
+      internalID: -1286721765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash Effect Flipped_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489904d88f5c64089a6344da223fee95
+      internalID: -1585050797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash Effect Flipped_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bd16f7e5d5f4ffdaff49caf1fb2df1
+      internalID: 210660163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash Effect Flipped_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8360d17cf1d7459b91a50387dfc8b59
+      internalID: -780349557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash Effect Flipped_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8385d7d7bc8b742babc0547f4d4c8f18
+      internalID: 1467755581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slash Effect Flipped_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 813ec2b9d1efc47c8aa22edabf744c42
+      internalID: 893889358
       vertices: []
       indices: 
       edges: []
@@ -175,8 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hero_Idle_0: -506548426
-      Hero_Idle_1: 1044538332
+      Slash Effect Flipped_0: -1598383765
+      Slash Effect Flipped_1: 580723097
+      Slash Effect Flipped_2: -1516052851
+      Slash Effect Flipped_3: -1286721765
+      Slash Effect Flipped_4: -1585050797
+      Slash Effect Flipped_5: 210660163
+      Slash Effect Flipped_6: -780349557
+      Slash Effect Flipped_7: 1467755581
+      Slash Effect Flipped_8: 893889358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
