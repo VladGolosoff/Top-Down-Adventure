@@ -1900,11 +1900,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2485356273390580263, guid: 8e1eae079844649ba9a06b2461921743, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.17
+      value: -1.2894181
       objectReference: {fileID: 0}
     - target: {fileID: 2485356273390580263, guid: 8e1eae079844649ba9a06b2461921743, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.16
+      value: -0.25957173
       objectReference: {fileID: 0}
     - target: {fileID: 2485356273390580263, guid: 8e1eae079844649ba9a06b2461921743, type: 3}
       propertyPath: m_LocalRotation.w
